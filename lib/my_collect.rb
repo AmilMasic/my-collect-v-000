@@ -7,7 +7,7 @@ def my_collect(collection)
   languages << yield (collection[i])
     i+=1
   end
-  collection
+  languages
 end
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |lang|
