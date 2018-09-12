@@ -8,6 +8,6 @@ array = []
   end
 end
 
-my_collect(array) do |lang|
-  lang.upcase
-end
+# my_collect(array) do |lang|
+#   lang.upcase
+# end
