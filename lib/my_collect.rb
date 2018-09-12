@@ -1,4 +1,4 @@
-def my_collect(collection)
+def my_collect(array)
   collection = []
   i = 0
   while i < collection.length
@@ -7,6 +7,6 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) do |lang|
+my_collect(array) do |lang|
   lang.upcase
 end
